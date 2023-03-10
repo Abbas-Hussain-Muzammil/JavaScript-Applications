@@ -1,0 +1,269 @@
+body {
+
+    position: absolute;
+    width: 2238.06px;
+    height: 1660.52px;
+
+    background: #1C1C1C;
+
+
+
+}
+
+.container {
+
+    /* populated-state */
+
+
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    left: 580px;
+    top: 198px;
+
+    background: #1F2937;
+
+    border-radius: 4%;
+
+}
+
+.heading {
+    /* Heading */
+
+
+    position: absolute;
+    width: 486px;
+    height: 81px;
+    left: 47px;
+    top: 122px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+.emoji {
+    /* Emoji */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 485px;
+    top: 6px;
+
+
+}
+
+.para {
+    /* Supporting text */
+
+
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 212px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+
+}
+
+.secondText {
+
+    color: var(--secondary-color);
+}
+
+.line {
+
+    position: absolute;
+    width: 540px;
+    height: 0px;
+    left: 50px;
+    top: 208px;
+
+    border: 1px solid #2F3E53;
+}
+
+button {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 47px;
+    top: 305px;
+
+    background: #10B981;
+    color: #FFFFFF;
+
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.rectangle {
+
+
+
+    position: absolute;
+    width: 238px;
+    height: 39px;
+    left: 295px;
+    top: 305px;
+
+    background: #273549;
+    border-radius: 6px;
+
+    color: #10B981;
+
+
+
+}
+
+.passwordText {
+
+
+
+
+    position: absolute;
+    width: 172px;
+    height: 32px;
+    left: 11px;
+    top: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+
+
+    text-align: center;
+
+    color: #55F991;
+    background-color: #273549;
+    border: none;
+
+}
+
+.copy-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    left: 198px;
+    top: 4.3px;
+
+    background: #10B981;
+
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 100px;
+
+    font-size: 15;
+}
+
+.copy-password:active {
+    background: #10B981;
+}
+
+.copy-password:before {
+    content: "Copied";
+    position: absolute;
+    top: -51px;
+    right: -15px;
+
+    background: #10B981;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: none;
+
+}
+
+.copy-password:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    background: #10B981;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.copy-password.active button:before,
+.copy-password.active button:after {
+    display: block;
+}
+
+.checkboxPassword {
+    position: absolute;
+    width: 29px;
+    height: 39px;
+    left: 298px;
+    top: 356px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+
+}
+
+.checkBoxName {
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 348px;
+    top: 356px;
+    color: #FFFFFF;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+}

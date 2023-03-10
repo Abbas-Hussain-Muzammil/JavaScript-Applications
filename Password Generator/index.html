@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="fonticon.png">
+
+</head>
+
+<body>
+    <i class="fa-sharp fa-regular fa-key"></i>
+    <div class="container">
+        <h1 class="heading">Generate a <span class="secondText">random password</span><span class="emoji">🔑</span></h1>
+        <p class="para">Never use an insecure password again.</p>
+        <button onclick="generatePassword()">
+            <h3>Generate passwords</h3>
+        </button>
+        <hr class="line">
+
+        <div class="rectangle">
+
+            <input type="password" value="" id="pass-1" class="passwordText">
+            <button class="copy-password">
+                <i class="fa fa-clone"></i>
+            </button>
+        </div>
+        <!-- An element to toggle between password visibility -->
+        <input type="checkbox" onclick="togglePassword()" class="checkboxPassword">
+        <p class="checkBoxName"> Show Password </p>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
