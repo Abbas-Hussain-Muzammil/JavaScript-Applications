@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+ 
+    <link rel="stylesheet" href="index.css">
+    <title>Basket Ball Scorecard</title>
+
+    <link rel="icon" type="image/png" href="fonticon.png">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+ 
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+
+            <h2 id="home-score" class="score">0</h2>
+            <button class = "button" id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+            <button class = "button" id="home-score-btn-1" onclick="increaseHomeScoreTwo()">+ 2</button>
+            <button class = "button" id="home-score-btn-1" onclick="increaseHomeScoreThree()">+ 3</button>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <h2 id="guest-score" class="score">0</h2>
+            <button class = "button" id="guest-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+            <button class = "button" id="guest-score-btn-1" onclick="increaseGuestScoreTwo()">+ 2</button>
+            <button class = "button" id="guest-score-btn-1" onclick="increaseGuestScoreThree()">+ 3</button>
+
+        </div>
+        <div>
+            <button class = "button" id="reset-score" onclick="reset()">Reset</button>
+        </div>
+      
+    </div>
+
+    
+    <div class="timer">
+
+
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+    <!-- <script src="Timer.js"></script> -->
+</body>
+
+</html>
